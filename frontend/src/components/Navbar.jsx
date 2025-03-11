@@ -7,7 +7,9 @@ export default function Navbar({ darkMode, setDarkMode }) {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <img src="/logo.png" alt="Memelab Logo" className="h-10" /> 
+          <img src="https://imgs.search.brave.com/ZAE215pDH5W4oVGGp_wZr7DduCcJOl6Ffz0wus8tAtY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTIx/NDQxNjYwMC9waG90/by9oYXBweS1yZXNj/dWVkLXNsb3RoLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1Q/YThsRU5rYm9Cdlhm/Nkt0N1l2cnhHeUhs/R0hoUXVReVliUDl1/Z1JOZXIwPQ" alt="Memelab Logo" 
+            className="h-10 w-10 rounded-full border-2 border-white dark:border-gray-800" 
+            /> 
           <span className="text-2xl font-bold">Memelab</span>
         </Link>
 
